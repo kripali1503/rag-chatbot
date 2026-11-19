@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Model discovery cache
+.model_cache.json
+
+# FAISS and generated indexes
+faiss_index_storage/
+*.index
+*.pkl
+
+# Temporary files
+*.tmp
+*.temp
+temp_*/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Sample PDFs
+*.pdf
+!docs/*.pdf
