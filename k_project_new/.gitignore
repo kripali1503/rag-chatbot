@@ -1,0 +1,47 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# FAISS Index
+faiss_index_storage/
+*.index
+*.pkl
+
+# Temporary files
+*.tmp
+*.temp
+temp_*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Sample PDFs (too large for Git)
+*.pdf
+!docs/*.pdf
